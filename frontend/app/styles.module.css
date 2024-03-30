@@ -1,0 +1,80 @@
+.page {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 120px;
+    padding: 0px 30px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.canvas {
+    position: absolute;
+
+    right: -50%;
+    bottom: -50%;
+
+    width: calc(150% + 20px);
+    height: calc(150% + 20px);
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+.grid {
+    height: 100%;
+    flex-grow: 1;
+
+    padding: 0px 15px 15px 15px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    height: 100%;
+    
+    flex-basis: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.itemContainer {
+    display: flex;
+
+    position: relative;
+    margin: 10px;
+}
+
+.item {
+    flex: 1 1 auto;
+
+    padding: 20px 30px;
+
+    border-radius: 20px;
+}
+
+.title {
+    margin: 0;
+
+    font-size: 50px;
+
+    color: transparent;
+}
+
+.subheading {
+    margin: 0;
+
+    font-size: 20px;
+
+    color: transparent;
+}

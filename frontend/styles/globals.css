@@ -1,0 +1,12 @@
+* {
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0px;
+  height: 100vh;
+  overflow: hidden;
+
+  /* background-color: #FEECE5;
+  background: linear-gradient(to top, #FEECE5 10%, #FECDC3 90%); */
+}
